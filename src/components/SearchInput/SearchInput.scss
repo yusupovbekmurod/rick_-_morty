@@ -1,0 +1,18 @@
+.input {
+    width: 40%;
+    border: 2px solid #0b5ed7;
+    border-radius: 8px;
+   
+    padding: 10px 15px;
+    &:focus {
+      outline: none;
+    }
+  }
+  
+ 
+  @media (max-width: 576px) {
+    .input {
+      width: 80%;
+    }
+  }
+  

@@ -1,0 +1,68 @@
+.wrap {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.card {
+  text-align: start;
+  padding: 5px;
+  border: 2px solid blue;
+  width: 350px;
+  border-radius: 8px;
+}
+
+.cardLocation {
+  margin-top: 10px;
+}
+
+.static {
+  border: 1px solid green;
+  padding: 5px;
+  border-radius: 5px;
+
+  color: #fff;
+  background-color: green;
+
+  position: relative;
+  bottom: 440px;
+  left: 285px;
+  cursor: pointer;
+}
+
+.static__dead {
+  position: relative;
+  bottom: 440px;
+  left: 285px;
+
+  border: 1px solid red;
+  padding: 5px;
+  border-radius: 5px;
+
+  color: #fff;
+  background-color: red;
+  cursor: pointer;
+}
+
+.static__unknown {
+  position: relative;
+  bottom: 440px;
+  left: 255px;
+
+  border: 1px solid goldenrod;
+  padding: 5px;
+  border-radius: 5px;
+
+  color: #fff;
+  background-color: goldenrod;
+  cursor: pointer;
+}
+
+.btnMore {
+  color: #fff;
+  background-color: blue;
+  padding: 5px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  cursor: pointer;
+}
